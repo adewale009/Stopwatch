@@ -1,0 +1,53 @@
+
+
+body {
+    background: url(img/bck.jpg) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px;
+}
+
+#timer {
+    width: 80%;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px center;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
